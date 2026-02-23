@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "b",
+						"type": "string"
+					}
+				],
+				"name": "compareString",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/compareStrings.sol": "compareStrings"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/compareStrings.sol": {
+			"keccak256": "0xc061bd1b6b3941774ac8363b050f3daae66428771a815127b3e77789b06507fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24b36cc12b91b022d4ee8578cd43f64ba88cd1725f0daf953ae819f2afa85ffc",
+				"dweb:/ipfs/QmZpQa7cHVX5RWCUCEf2v2ctJSce5aWT6BzMDnqfDSKyvd"
+			]
+		}
+	},
+	"version": 1
+}

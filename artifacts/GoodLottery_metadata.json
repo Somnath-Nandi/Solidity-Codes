@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "pendingWithdrawals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GoodLottery.sol": "GoodLottery"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GoodLottery.sol": {
+			"keccak256": "0xd1f8faa00488b75174f0b5ac03aadff95310a5945dd756f8b1c7aa206a828b9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ef96e26d613d08433ec0c2a9c22bd685748269967558f013253446adc364442",
+				"dweb:/ipfs/QmRRBpQCJDZFBpcnqJCHGoyvwsQ6j9pvvfKpYVmEu8GCSQ"
+			]
+		}
+	},
+	"version": 1
+}
