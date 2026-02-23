@@ -6,21 +6,34 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
 						"name": "winner",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
 					}
 				],
 				"name": "assignPrize",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -31,7 +44,7 @@
 						"type": "address"
 					}
 				],
-				"name": "pendingWithdrawals",
+				"name": "pendingW",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -63,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GoodLottery.sol": "GoodLottery"
+			"contracts/smth.sol": "smth"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -77,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/GoodLottery.sol": {
-			"keccak256": "0x748feab06097ec1f0cbb9d9699d435d370155435c03b1a6b14b4708a54eb1bd4",
+		"contracts/smth.sol": {
+			"keccak256": "0x5f95c5f115bec06fd1277de3ac2311db46e91f16a210df083e2db9488dfe1e3b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6063a0e487ede7fc3087c55913dd5f19ecc46d46be1bc459bb716df170bdb93e",
-				"dweb:/ipfs/QmVHE9PMmnEgczYrJ6aQtZKaPTaZ7Nf4K4yy8mWfGKTia2"
+				"bzz-raw://1b612d9b1160f82a723479634e95345a0e6ae210e8b520f0c6957bf7ec1e4bfd",
+				"dweb:/ipfs/QmREc3g5x8VHjZus2iu7Qxg7Crs5ZaXweWjdK6jnVCQzHz"
 			]
 		}
 	},

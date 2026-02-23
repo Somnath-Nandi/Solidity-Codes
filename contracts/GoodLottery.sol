@@ -6,7 +6,7 @@ contract GoodLottery {
     mapping(address => uint256) public pendingWithdrawals;
 
     // Called by owner/game logic to record winnings
-    function assignPrize(address winner, uint256 amount) internal {
+    function assignPrize(address winner, uint256 amount) public {
         pendingWithdrawals[winner] += amount;
     }
 
