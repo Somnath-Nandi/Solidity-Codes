@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "nextStage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stage",
+				"outputs": [
+					{
+						"internalType": "enum Q6.Stage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Q6.sol": "Q6"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Q6.sol": {
+			"keccak256": "0xc5085c329c8137df8f671b714866d1fc0ebd595915e98c07d06f9efccdaa4aab",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3d8d6819f9d19fecdfd7871b8b0bd51f082305571d3b21d304a69b1a4f51605f",
+				"dweb:/ipfs/QmXfpGGa1VRNvcPVHzxeNxkJRxBf8sEeDD3H6CPm7L4eep"
+			]
+		}
+	},
+	"version": 1
+}
