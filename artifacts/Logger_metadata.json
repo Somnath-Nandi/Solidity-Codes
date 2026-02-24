@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "lastCaller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "logCaller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Logger.sol": "Logger"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Logger.sol": {
+			"keccak256": "0xfbb1d5f8f787b072309c098aa127aba8dc641931ce2fb4f703683050aee1a539",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce86cc0126ee3e02be113a8c3a637a5811fb41d1ce7c371779de7cafa86c1cc1",
+				"dweb:/ipfs/QmSuR7mfYph8frPwZ7rMht8SFwFGnC8kJ2WmRg1N74yY5P"
+			]
+		}
+	},
+	"version": 1
+}

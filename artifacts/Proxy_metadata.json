@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "logger",
+						"type": "address"
+					}
+				],
+				"name": "forward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastCaller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Proxy.sol": "Proxy"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Logger.sol": {
+			"keccak256": "0xfbb1d5f8f787b072309c098aa127aba8dc641931ce2fb4f703683050aee1a539",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce86cc0126ee3e02be113a8c3a637a5811fb41d1ce7c371779de7cafa86c1cc1",
+				"dweb:/ipfs/QmSuR7mfYph8frPwZ7rMht8SFwFGnC8kJ2WmRg1N74yY5P"
+			]
+		},
+		"contracts/Proxy.sol": {
+			"keccak256": "0x1356cbabd397c4325719510a5187366f6118f6d7196590172367bcd90a1fe8df",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd2111f890ae9006862772e6d8111fa47b855364c2070dc7bd983f9de5e5c904",
+				"dweb:/ipfs/QmPs2gMJjvEHvcb62DUe5bfXozzwAUbZQzcAifPmTKBgkq"
+			]
+		}
+	},
+	"version": 1
+}
