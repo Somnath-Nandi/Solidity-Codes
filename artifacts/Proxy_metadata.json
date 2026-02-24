@@ -9,23 +9,52 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "logger",
+						"name": "_implementation",
 						"type": "address"
 					}
 				],
-				"name": "forward",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "addViaProxy",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "lastCaller",
+				"name": "implementation",
 				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Proxy.sol": "Proxy"
+			"contracts/Calculator.sol": "Proxy"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -59,20 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Logger.sol": {
-			"keccak256": "0xfbb1d5f8f787b072309c098aa127aba8dc641931ce2fb4f703683050aee1a539",
+		"contracts/Calculator.sol": {
+			"keccak256": "0xf351c43e6d28daf30d727549f2c4c0d67d0d66d27ebae751b613eff220d620c8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce86cc0126ee3e02be113a8c3a637a5811fb41d1ce7c371779de7cafa86c1cc1",
-				"dweb:/ipfs/QmSuR7mfYph8frPwZ7rMht8SFwFGnC8kJ2WmRg1N74yY5P"
-			]
-		},
-		"contracts/Proxy.sol": {
-			"keccak256": "0x1356cbabd397c4325719510a5187366f6118f6d7196590172367bcd90a1fe8df",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://cd2111f890ae9006862772e6d8111fa47b855364c2070dc7bd983f9de5e5c904",
-				"dweb:/ipfs/QmPs2gMJjvEHvcb62DUe5bfXozzwAUbZQzcAifPmTKBgkq"
+				"bzz-raw://beea9e761a7a6523c66b7bc94655ed1d3bacf58d86ba831f7633f7acec33ae3b",
+				"dweb:/ipfs/QmX2p6uXRhFYkBc5uvDTsXvqs4E71QeJGjVeAJHp9cvibg"
 			]
 		}
 	},
